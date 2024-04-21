@@ -1,9 +1,10 @@
-import { initShaderProgram } from "./initShaderProgram";
-import { initBuffers } from "./initBuffers";
-import { drawScene } from "./drawScene";
+import { initShaderProgram } from "./initShaderProgram.js";
+import { initBuffers } from "./initBuffers.js";
+import { drawScene } from "./drawScene.js";
 
-
-
+let cubeRotation =0;
+let deltaTime = 0;
+mainTest();
 function mainTest()
 {
 
@@ -72,5 +73,3 @@ function mainTest()
     }
     requestAnimationFrame(render);
 }
-
-mainTest();
