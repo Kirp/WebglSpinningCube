@@ -8,7 +8,6 @@ function toggle()
     canMove  = !canMove;
 };
 
-mainTest();
 function mainTest()
 {
     
@@ -387,3 +386,5 @@ function initIndexBuffer(webgl)
 };
 
 
+//unless issues come up just call the start here directly
+mainTest();
