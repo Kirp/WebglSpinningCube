@@ -1,3 +1,10 @@
-# WebglSpinningCube
+# Webgl spinning cube
 
-Submitted for a test;
+**Coded up with:**
+- vanilla js
+- [gl matrix lib for the mat2 math](https://glmatrix.net/)
+
+
+
+***
+***Project task #2 coded by [@kirp](https://github.com/Kirp)***
